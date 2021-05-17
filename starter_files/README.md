@@ -31,9 +31,9 @@
    ![log_py](IMG/log_py_register.png) 
    
    Docker swagger  
-   ![swagger](IMG/docker_swagger.png)  
+   ![swagger](IMG/swagger.png)  
    
-   ![swagger](IMG/docker_swagger2.png)  
+   ![swagger](IMG/swagger2.png)  
 
 **6. Consume model endpoints**  
    Endpoint  
