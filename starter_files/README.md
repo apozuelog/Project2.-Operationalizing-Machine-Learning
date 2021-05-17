@@ -8,16 +8,17 @@
 
 ## Key Steps
 
-**1. Authentication**
+1. Authentication
    I'm using the Udacity lab
-   ![no_privileges](IMG/service principal insuficient privileges.jpg)
-**3. Automated ML Experiment**
-**4. Deploy the best model**
-**5. Enable logging**
-**6. Swagger Documentation**
-**7. Consume model endpoints**
-**8. Create and publish a pipeline**
-**9. Documentation**
+![logo2](IMG/service principal insuficient privileges.jpg)
+
+3. Automated ML Experiment
+4. Deploy the best model
+5. Enable logging
+6. Swagger Documentation
+7. Consume model endpoints
+8. Create and publish a pipeline
+9. Documentation
 
 ## Screen Recording
 ### Authentication
