@@ -24,10 +24,20 @@
    ![deploy](IMG/deplo_best_model_ACI_and_enable_authentication.png)  
 
 **4. Enable logging**  
-5. Swagger Documentation  
-6. Consume model endpoints  
-7. Create and publish a pipeline  
-8. Documentation  
+   ![enable](IMG/insight_enabled_true.png) 
+
+**5. Swagger Documentation**  
+   Log.py registered  
+   ![log_py](IMG/log_py_register.png) 
+   
+   Docker swagger  
+   ![swagger](IMG/docker_swagger.png)  
+
+**6. Consume model endpoints**  
+
+**7. Create and publish a pipeline**  
+
+**8. Documentation**  
 
 ## Screen Recording
 ### Authentication
