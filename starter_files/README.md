@@ -8,17 +8,26 @@
 
 ## Key Steps
 
-1. Authentication  
+**1. Authentication**  
    I'm using the Udacity lab  
-   ![logo2](IMG/insuficient_privileges.png)  
+   ![authentication](IMG/insuficient_privileges.png)  
 
-3. Automated ML Experiment  
-4. Deploy the best model  
-5. Enable logging  
-6. Swagger Documentation  
-7. Consume model endpoints  
-8. Create and publish a pipeline  
-9. Documentation  
+**2. Automated ML Experiment**  
+   Registered Dataset  
+   ![authentication](IMG/dataset.png)  
+   
+   Experiment and best model 
+   ![best_model](IMG/experiment_completede_and_best_model.png)  
+   
+**3. Deploy the best model**  
+   Deploy best model, enabled "Authentication" and use Azure Container Instance (ACI)  
+   ![deploy](IMG/deplo_best_model_ACI_and_enable_authentication.png)  
+
+**4. Enable logging**  
+5. Swagger Documentation  
+6. Consume model endpoints  
+7. Create and publish a pipeline  
+8. Documentation  
 
 ## Screen Recording
 ### Authentication
