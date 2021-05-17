@@ -32,10 +32,16 @@
    
    Docker swagger  
    ![swagger](IMG/docker_swagger.png)  
+   
+   ![swagger](IMG/docker_swagger2.png)  
 
 **6. Consume model endpoints**  
+   Endpoint  
+   ![swagger](IMG/endpoint.png)  
 
 **7. Create and publish a pipeline**  
+   Pipeline  
+   ![pipeline](IMG/pipeline.png)  
 
 **8. Documentation**  
 
