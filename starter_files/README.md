@@ -19,7 +19,6 @@ As you can see in the architecture figure, the project consists of 7 main milest
    ![dataset](IMG/dataset.png)  
    
    Once the dataset has been loaded and the column on which we want to perform the classification indicated. After finishing the training, Auto ML will tell us which model is the best. Finally, from this model, we create a new experiment as shown in the image.  
-   Experiment and best model 
    ![best_model](IMG/experiment_completede_and_best_model.png)  
    
 **3. Deploy the best model**  
