@@ -10,14 +10,15 @@ As you can see in the architecture figure, the project consists of 7 main milest
 ## Key Steps
 
 **1. Authentication**  
-   Para que el sistema de entrega e integración continua (CI / CD) no se interrumpa, es necesario configurar y usar la autenticación con automatización. Para ello una opción es hacerlo a través de la CLI instalando la extensión ```azure-cli-ml```. Una vez comprobado que tenemos las librerías de Azure ML listas para trabajar con ellas a través de la consola, debemos realizar las siguientes comprobaciones/acciones:  
+   To keep your Continuous Integration and Delivery (CI / CD) system uninterrupted, you need to configure and use authentication with automation. To do this, an option is to do it through the CLI by installing the extension ```azure-cli-ml```. Once verified that we have the Azure ML libraries ready to work with them through the console, we must perform a series of checks / actions that in my case, when carrying out the project through the Lab provided by Udacity, the result was the shown in the picture.
    ![authentication](IMG/insuficient_privileges.png)  
-   En esta imagen se ve como el usuario no tiene privilegios suficientes para realizar la acción.
+   This image shows how the user does not have sufficient privileges to perform the action.  
 
 **2. Automated ML Experiment**  
-   Registered Dataset  
-   ![authentication](IMG/dataset.png)  
+   In this second step, an Auto ML is configured, according to the project specifications, to train a **classification model** to use it in the Dataset provided for Banking Marketing as shown in the image.  
+   ![dataset](IMG/dataset.png)  
    
+   Once the dataset has been loaded and the column on which we want to perform the classification indicated. After finishing the training, Auto ML will tell us which model is the best. Finally, from this model, we create a new experiment as shown in the image.  
    Experiment and best model 
    ![best_model](IMG/experiment_completede_and_best_model.png)  
    
