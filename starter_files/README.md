@@ -22,7 +22,7 @@ As you can see in the architecture figure, the project consists of 7 main milest
    ![best_model](IMG/experiment_completede_and_best_model.png)  
    
 **3. Deploy the best model**  
-   Deploy best model, enabled "Authentication" and use Azure Container Instance (ACI)  
+   In this step, we deploy the best model, enabling authentication and using Azure Container Instance (ACI) as shown in the image  
    ![deploy](IMG/deplo_best_model_ACI_and_enable_authentication.png)  
 
 **4. Enable logging**  
