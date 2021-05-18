@@ -1,16 +1,18 @@
 # Project2.-Operationalizing-Machine-Learning
 
-*TODO:* Write an overview to your project.
+This 2nd project is part of Udacity's Nanodegre Machine Learning Engineer with Microsoft Azure.  
+Basically it is about working with the dataset provided by Banking Marketing as a dataset and using Azure, and more specifically Azure ML to configure a machine learning model and implement it, also creating an endpoint and a pipeline.  
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model".  
+As you can see in the architecture figure, the project consists of 7 main milestones (I included one more, swagger) that are described in the following **Key Steps**:  
 ![logo](IMG/architectur.png)  
 
 ## Key Steps
 
 **1. Authentication**  
-   I'm using the Udacity lab  
+   Para que el sistema de entrega e integración continua (CI / CD) no se interrumpa, es necesario configurar y usar la autenticación con automatización. Para ello una opción es hacerlo a través de la CLI instalando la extensión ```azure-cli-ml```. Una vez comprobado que tenemos las librerías de Azure ML listas para trabajar con ellas a través de la consola, debemos realizar las siguientes comprobaciones/acciones:  
    ![authentication](IMG/insuficient_privileges.png)  
+   En esta imagen se ve como el usuario no tiene privilegios suficientes para realizar la acción.
 
 **2. Automated ML Experiment**  
    Registered Dataset  
@@ -37,7 +39,7 @@
 
 **6. Consume model endpoints**  
    Endpoint  
-   ![swagger](IMG/endpoint.png)  
+   ![endpoint](IMG/endpoint.png)  
 
 **7. Create and publish a pipeline**  
    Pipeline  
